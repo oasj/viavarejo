@@ -1,6 +1,6 @@
 # viavarejo
 
-Este projeto foi escrito em Visual Studio 2010. 
+Este projeto foi escrito em MVC4 no Visual Studio 2010. 
 
 A solução consiste em 4 projetos distintos:
 
