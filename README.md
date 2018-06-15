@@ -1,6 +1,6 @@
 # viavarejo
 
-A solução consiste em 4 projetos distintos:
+O projeto foi escrito em Visual Studio 2010. A solução consiste em 4 projetos distintos:
 
 1) Backend.Models - armazena os modelos de dados e métodos de extensão utilizados com o Entity Framework e para shallow copy de objetos.
 2) Backend.Services - WEBAPI contendo controllers para CRUD de amigos e pesquisa de amigos próximos
