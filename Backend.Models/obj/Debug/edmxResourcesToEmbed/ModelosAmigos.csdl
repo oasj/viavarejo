@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Backend.Models" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="DadosAmigos" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Amigos" EntityType="Backend.Models.Amigo" />
+    <EntitySet Name="Caches" EntityType="Backend.Models.Cache" />
+    <AssociationSet Name="FK_Historico_Amigos_IdAmigo" Association="Backend.Models.FK_Historico_Amigos_IdAmigo">
+      <End Role="Amigos" EntitySet="Amigos" />
+      <End Role="Cache" EntitySet="Caches" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Historico_Amigos_IdDestino" Association="Backend.Models.FK_Historico_Amigos_IdDestino">
+      <End Role="Amigos" EntitySet="Amigos" />
+      <End Role="Cache" EntitySet="Caches" />
+    </AssociationSet>
+    <EntitySet Name="Logs" EntityType="Backend.Models.Log" />
+    <AssociationSet Name="FK_Log_Cache_IdCache" Association="Backend.Models.FK_Log_Cache_IdCache">
+      <End Role="Cache" EntitySet="Caches" />
+      <End Role="Log" EntitySet="Logs" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Amigo">
+    <Key>
+      <PropertyRef Name="IdAmigo" />
+    </Key>
+    <Property Name="IdAmigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Local" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Latitude" Type="Decimal" Nullable="false" Precision="12" Scale="8" />
+    <Property Name="Longitude" Type="Decimal" Nullable="false" Precision="12" Scale="8" />
+    <NavigationProperty Name="Amigos" Relationship="Backend.Models.FK_Historico_Amigos_IdAmigo" FromRole="Amigos" ToRole="Cache" a:GetterAccess="Internal" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" a:SetterAccess="Public" />
+    <NavigationProperty Name="Destinos" Relationship="Backend.Models.FK_Historico_Amigos_IdDestino" FromRole="Amigos" ToRole="Cache" />
+  </EntityType>
+  <EntityType Name="Cache">
+    <Key>
+      <PropertyRef Name="IdCache" />
+    </Key>
+    <Property Name="IdCache" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdAmigo" Type="Int32" Nullable="false" />
+    <Property Name="IdDestino" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Amigo" Relationship="Backend.Models.FK_Historico_Amigos_IdAmigo" FromRole="Cache" ToRole="Amigos" a:SetterAccess="Public" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <NavigationProperty Name="Destino" Relationship="Backend.Models.FK_Historico_Amigos_IdDestino" FromRole="Cache" ToRole="Amigos" a:SetterAccess="Public" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+    <Property Type="Decimal" Name="Distancia" Nullable="false" Precision="20" Scale="8" />
+    <NavigationProperty Name="Log" Relationship="Backend.Models.FK_Log_Cache_IdCache" FromRole="Cache" ToRole="Log" />
+  </EntityType>
+  <Association Name="FK_Historico_Amigos_IdAmigo">
+    <End Role="Amigos" Type="Backend.Models.Amigo" Multiplicity="1" />
+    <End Role="Cache" Type="Backend.Models.Cache" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Amigos">
+        <PropertyRef Name="IdAmigo" />
+      </Principal>
+      <Dependent Role="Cache">
+        <PropertyRef Name="IdAmigo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Historico_Amigos_IdDestino">
+    <End Role="Amigos" Type="Backend.Models.Amigo" Multiplicity="1" />
+    <End Role="Cache" Type="Backend.Models.Cache" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Amigos">
+        <PropertyRef Name="IdAmigo" />
+      </Principal>
+      <Dependent Role="Cache">
+        <PropertyRef Name="IdDestino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Log">
+    <Key>
+      <PropertyRef Name="IdCache" />
+    </Key>
+    <Property Type="Int64" Name="IdCache" Nullable="false" />
+    <Property Type="Decimal" Name="RadianosLatitudeOrigem" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="RadianosLatitudeDestino" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="RadianosThetaLongitude" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="Seno" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="Coseno" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="Angulo" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="Milhas" Nullable="false" Precision="20" Scale="8" />
+    <Property Type="Decimal" Name="Kilometros" Nullable="false" Precision="20" Scale="8" />
+    <NavigationProperty Name="Cache" Relationship="Backend.Models.FK_Log_Cache_IdCache" FromRole="Log" ToRole="Cache" />
+  </EntityType>
+  <Association Name="FK_Log_Cache_IdCache">
+    <End Type="Backend.Models.Cache" Role="Cache" Multiplicity="1" />
+    <End Type="Backend.Models.Log" Role="Log" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Cache">
+        <PropertyRef Name="IdCache" />
+      </Principal>
+      <Dependent Role="Log">
+        <PropertyRef Name="IdCache" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

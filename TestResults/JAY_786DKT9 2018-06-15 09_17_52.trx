@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="270756e6-b45b-4792-b8a0-3928b6780894" name="JAY@786DKT9 2018-06-15 09:17:52" runUser="786DKT9\JAY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="569e81ce-0754-4e7d-adb8-8624ca26072d">
+    <Deployment runDeploymentRoot="JAY_786DKT9 2018-06-15 09_17_52">
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Services\bin\Backend.Services.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-06-15T09:17:52.2028537-03:00" queuing="2018-06-15T09:17:55.2448591-03:00" start="2018-06-15T09:17:55.4944595-03:00" finish="2018-06-15T09:18:29.0143406-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Near" storage="f:\viavarejo\backend.tests\bin\debug\backend.tests.dll" priority="4" id="41b4985f-0137-4c58-535e-3ccfd55da940">
+      <Execution id="a8702bf8-9d56-4a99-822b-199fe6b30a84" />
+      <TestMethod codeBase="F:/ViaVarejo/Backend.Tests/bin/Debug/Backend.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Backend.Tests.Controllers.AmigosControllerTest, Backend.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Near" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="41b4985f-0137-4c58-535e-3ccfd55da940" executionId="a8702bf8-9d56-4a99-822b-199fe6b30a84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a8702bf8-9d56-4a99-822b-199fe6b30a84" testId="41b4985f-0137-4c58-535e-3ccfd55da940" testName="Near" computerName="786DKT9" duration="00:00:30.4144223" startTime="2018-06-15T09:17:55.7128599-03:00" endTime="2018-06-15T09:18:27.1861200-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a8702bf8-9d56-4a99-822b-199fe6b30a84">
+      <Output>
+        <DebugTrace>Id: 324, Nome: Josh, Local: Princeton, Latitude: 40,34556260, Longitude: -74,61154540
+Id: 323, Nome: Paulo, Local: Montauk, Latitude: 41,03378650, Longitude: -72,08242110
+Id: 328, Nome: John, Local: Toronto, Latitude: 43,80185750, Longitude: -79,15680050
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

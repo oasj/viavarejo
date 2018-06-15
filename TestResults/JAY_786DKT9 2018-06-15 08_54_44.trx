@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="87b965e9-7b5b-41c4-acf6-f35daf78a1bc" name="JAY@786DKT9 2018-06-15 08:54:44" runUser="786DKT9\JAY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="48751d55-b53c-420e-b14b-cb5348ff45f1">
+    <Deployment runDeploymentRoot="JAY_786DKT9 2018-06-15 08_54_44">
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Services\bin\Backend.Services.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-06-15T08:54:44.3846139-03:00" queuing="2018-06-15T08:54:46.0538169-03:00" start="2018-06-15T08:54:46.1474170-03:00" finish="2018-06-15T08:54:50.2190242-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Alter" storage="f:\viavarejo\backend.tests\bin\debug\backend.tests.dll" priority="2" id="e4e8759f-7ac3-a696-75c2-b7f4826962af">
+      <Execution id="86c4f22b-6dfd-4544-9b5c-1274dc68f1dc" />
+      <TestMethod codeBase="F:/ViaVarejo/Backend.Tests/bin/Debug/Backend.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Backend.Tests.Controllers.AmigosControllerTest, Backend.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Alter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e4e8759f-7ac3-a696-75c2-b7f4826962af" executionId="86c4f22b-6dfd-4544-9b5c-1274dc68f1dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="86c4f22b-6dfd-4544-9b5c-1274dc68f1dc" testId="e4e8759f-7ac3-a696-75c2-b7f4826962af" testName="Alter" computerName="786DKT9" duration="00:00:01.8874062" startTime="2018-06-15T08:54:46.2410172-03:00" endTime="2018-06-15T08:54:48.5030212-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86c4f22b-6dfd-4544-9b5c-1274dc68f1dc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Backend.Tests.Controllers.AmigosControllerTest.Alter threw exception: 
+System.Data.UpdateException: Erro ao atualizar as entradas. Consulte a exceção interna para obter detalhes. ---&gt; System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_Log_Cache_IdCache". The conflict occurred in database "ViaVarejo", table "dbo.Log", column 'IdCache'.
+The statement has been terminated.</Message>
+          <StackTrace>    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   em System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em System.Data.Mapping.Update.Internal.DynamicUpdateCommand.Execute(UpdateTranslator translator, EntityConnection connection, Dictionary`2 identifierValues, List`1 generatedValues)
+   em System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+ --- End of inner exception stack trace ---
+    em System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   em System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   em System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   em System.Data.Objects.ObjectContext.SaveChanges()
+   em Backend.Services.Controllers.AmigosController.CreateCache(DadosAmigos dados, Int32 idAmigo) na F:\ViaVarejo\Backend.Services\Controllers\AmigosController.cs:linha 266
+   em Backend.Services.Controllers.AmigosController.Create(AmigoData amigo) na F:\ViaVarejo\Backend.Services\Controllers\AmigosController.cs:linha 111
+   em Backend.Services.Controllers.AmigosController.Alter(AmigoData amigo) na F:\ViaVarejo\Backend.Services\Controllers\AmigosController.cs:linha 122
+   em Backend.Tests.Controllers.AmigosControllerTest.Alter() na F:\ViaVarejo\Backend.Tests\Controllers\AmigosControllerTest.cs:linha 74
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

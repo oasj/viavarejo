@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4e35fd78-d687-45a9-93eb-ba6a58851f96" name="JAY@786DKT9 2018-06-15 11:22:11" runUser="786DKT9\JAY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="38ba839e-f93f-4799-8c57-e6201c50fa80">
+    <Deployment runDeploymentRoot="JAY_786DKT9 2018-06-15 11_22_11">
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Services\bin\Backend.Services.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-06-15T11:22:11.6904555-03:00" queuing="2018-06-15T11:22:20.7201128-03:00" start="2018-06-15T11:22:21.0009133-03:00" finish="2018-06-15T11:22:23.1693171-03:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CreateAll" storage="f:\viavarejo\backend.tests\bin\debug\backend.tests.dll" priority="0" id="fc0561c6-52f2-6c0f-543c-c58e4422328a">
+      <Execution id="1832a9a1-b55d-482b-ab48-29e226209ea1" />
+      <TestMethod codeBase="F:/ViaVarejo/Backend.Tests/bin/Debug/Backend.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Backend.Tests.AmigosControllerTest, Backend.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateAll" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fc0561c6-52f2-6c0f-543c-c58e4422328a" executionId="1832a9a1-b55d-482b-ab48-29e226209ea1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1832a9a1-b55d-482b-ab48-29e226209ea1" testId="fc0561c6-52f2-6c0f-543c-c58e4422328a" testName="CreateAll" computerName="786DKT9" startTime="2018-06-15T11:22:21.3129138-03:00" endTime="2018-06-15T11:22:23.0913169-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1832a9a1-b55d-482b-ab48-29e226209ea1">
+      <Output>
+        <ErrorInfo>
+          <Message>Unit Test Adapter threw exception: 
+O inicializador de tipo de 'Microsoft.VisualStudio.TestTools.Diagnostics.EqtTrace' acionou uma exceção.
+O sistema de configuração falhou ao inicializar
+Seção de configuração não reconhecida applicationSettings. (F:\ViaVarejo\TestResults\JAY_786DKT9 2018-06-15 11_22_11\Out\Backend.Tests.DLL.config line 6).</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,13 @@
+F:\ViaVarejo\Frontend.Client\bin\Debug\Client.exe.config
+F:\ViaVarejo\Frontend.Client\bin\Debug\Client.exe
+F:\ViaVarejo\Frontend.Client\bin\Debug\Client.pdb
+F:\ViaVarejo\Frontend.Client\bin\Debug\Backend.Models.dll
+F:\ViaVarejo\Frontend.Client\bin\Debug\Newtonsoft.Json.dll
+F:\ViaVarejo\Frontend.Client\bin\Debug\Backend.Models.pdb
+F:\ViaVarejo\Frontend.Client\bin\Debug\Newtonsoft.Json.xml
+F:\ViaVarejo\Frontend.Client\obj\x86\Debug\Frontend.Client.csprojResolveAssemblyReference.cache
+F:\ViaVarejo\Frontend.Client\obj\x86\Debug\Client.FormAmigos.resources
+F:\ViaVarejo\Frontend.Client\obj\x86\Debug\Client.Properties.Resources.resources
+F:\ViaVarejo\Frontend.Client\obj\x86\Debug\Frontend.Client.csproj.GenerateResource.Cache
+F:\ViaVarejo\Frontend.Client\obj\x86\Debug\Client.exe
+F:\ViaVarejo\Frontend.Client\obj\x86\Debug\Client.pdb

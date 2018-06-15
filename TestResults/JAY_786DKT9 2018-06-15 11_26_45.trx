@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7f4bd6bf-1808-400b-805e-cb7f6fb97103" name="JAY@786DKT9 2018-06-15 11:26:45" runUser="786DKT9\JAY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7d495643-c043-44ce-8ffd-29b8c5dca1dc">
+    <Deployment runDeploymentRoot="JAY_786DKT9 2018-06-15 11_26_45">
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\Backend.Services\bin\Backend.Services.dll" />
+      <DeploymentItem filename="F:\ViaVarejo\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-06-15T11:26:45.8577110-03:00" queuing="2018-06-15T11:26:48.0417148-03:00" start="2018-06-15T11:26:48.0573148-03:00" finish="2018-06-15T11:26:49.0401166-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Alter" storage="f:\viavarejo\backend.tests\bin\debug\backend.tests.dll" priority="2" id="60a629dd-e514-a440-f36e-60f87c3ae1ee">
+      <Execution id="3007d2dd-7a41-4a7d-972e-d4ebd2a2aeac" />
+      <TestMethod codeBase="F:/ViaVarejo/Backend.Tests/bin/Debug/Backend.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Backend.Tests.AmigosControllerTest, Backend.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Alter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="60a629dd-e514-a440-f36e-60f87c3ae1ee" executionId="3007d2dd-7a41-4a7d-972e-d4ebd2a2aeac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3007d2dd-7a41-4a7d-972e-d4ebd2a2aeac" testId="60a629dd-e514-a440-f36e-60f87c3ae1ee" testName="Alter" computerName="786DKT9" duration="00:00:00.4318731" startTime="2018-06-15T11:26:48.0729149-03:00" endTime="2018-06-15T11:26:49.0089165-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3007d2dd-7a41-4a7d-972e-d4ebd2a2aeac">
+    </UnitTestResult>
+  </Results>
+</TestRun>

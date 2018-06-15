@@ -1,0 +1,11 @@
+F:\ViaVarejo\Client\bin\Debug\Client.exe.config
+F:\ViaVarejo\Client\bin\Debug\Client.exe
+F:\ViaVarejo\Client\bin\Debug\Client.pdb
+F:\ViaVarejo\Client\bin\Debug\Backend.Models.dll
+F:\ViaVarejo\Client\bin\Debug\Backend.Models.pdb
+F:\ViaVarejo\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+F:\ViaVarejo\Client\obj\x86\Debug\Client.Form1.resources
+F:\ViaVarejo\Client\obj\x86\Debug\Client.Properties.Resources.resources
+F:\ViaVarejo\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+F:\ViaVarejo\Client\obj\x86\Debug\Client.exe
+F:\ViaVarejo\Client\obj\x86\Debug\Client.pdb

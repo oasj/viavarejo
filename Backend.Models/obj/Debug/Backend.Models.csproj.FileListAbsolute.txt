@@ -1,0 +1,5 @@
+F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.dll.config
+F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.dll
+F:\ViaVarejo\Backend.Models\bin\Debug\Backend.Models.pdb
+F:\ViaVarejo\Backend.Models\obj\Debug\Backend.Models.dll
+F:\ViaVarejo\Backend.Models\obj\Debug\Backend.Models.pdb

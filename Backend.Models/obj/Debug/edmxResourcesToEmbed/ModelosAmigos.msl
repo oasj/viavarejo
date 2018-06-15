@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BackendModelsStoreContainer" CdmEntityContainer="DadosAmigos">
+    <EntitySetMapping Name="Amigos">
+      <EntityTypeMapping TypeName="Backend.Models.Amigo">
+        <MappingFragment StoreEntitySet="Amigos">
+          <ScalarProperty Name="IdAmigo" ColumnName="IdAmigo" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Local" ColumnName="Local" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Caches">
+      <EntityTypeMapping TypeName="Backend.Models.Cache">
+        <MappingFragment StoreEntitySet="Cache">
+          <ScalarProperty Name="Distancia" ColumnName="Distancia" />
+          <ScalarProperty Name="IdCache" ColumnName="IdCache" />
+          <ScalarProperty Name="IdAmigo" ColumnName="IdAmigo" />
+          <ScalarProperty Name="IdDestino" ColumnName="IdDestino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Logs">
+      <EntityTypeMapping TypeName="Backend.Models.Log">
+        <MappingFragment StoreEntitySet="Log">
+          <ScalarProperty Name="Kilometros" ColumnName="Kilometros" />
+          <ScalarProperty Name="Milhas" ColumnName="Milhas" />
+          <ScalarProperty Name="Angulo" ColumnName="Angulo" />
+          <ScalarProperty Name="Coseno" ColumnName="Coseno" />
+          <ScalarProperty Name="Seno" ColumnName="Seno" />
+          <ScalarProperty Name="RadianosThetaLongitude" ColumnName="RadianosThetaLongitude" />
+          <ScalarProperty Name="RadianosLatitudeDestino" ColumnName="RadianosLatitudeDestino" />
+          <ScalarProperty Name="RadianosLatitudeOrigem" ColumnName="RadianosLatitudeOrigem" />
+          <ScalarProperty Name="IdCache" ColumnName="IdCache" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
